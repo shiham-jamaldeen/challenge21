@@ -3,10 +3,7 @@ import { gql } from "@apollo/client";
 export const DELETE_BOOK = gql`
   mutation deleteBook($bookId: String!) {
     deleteBook(bookId: $bookId) {
-      _id
       username
-      email
-      password
       savedBooks {
         bookId
         authors
@@ -36,6 +33,21 @@ export const CREATE_NEW_USER = gql`
       user {
         _id
         username
+      }
+    }
+  }
+`;
+export const SAVE_BOOK = gql`
+  mutation saveBook($book: BookSchemaInput!) {
+    saveBook(book: $book) {
+      username
+      savedBooks {
+        authors
+        bookId
+        description
+        image
+        link
+        title
       }
     }
   }
