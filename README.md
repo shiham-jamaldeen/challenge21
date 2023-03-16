@@ -13,9 +13,11 @@ Deployed App: https://limitless-sea-81374.herokuapp.com
 - [Preview](#Preview)
 
 ## Key features
-- Semantic search for books using the Google API
-- Members only section
-- Add / Remove favourites on your profile
+- Semantic search for books using the Google Books API
+- Login to your profile
+- Create new member profile
+- Add / Remove favourites books
+- Favourites accessible from your profile
 
 ## Technology stack
 - React Framework
