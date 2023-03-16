@@ -29,4 +29,4 @@ Deployed App: https://limitless-sea-81374.herokuapp.com
   - Run `npm start`. This will start the React App
 
 ## Preview
-![screenshot](./Screen Shot 2023-03-17 at 07.11.03.png)
+![screenshot](./screenshot/ScreenShot2023-03-17.png)
