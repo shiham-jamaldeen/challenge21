@@ -2,8 +2,30 @@
 
 
 ## Description
-The Goodle API Book Search engine allows users to search for 
-The app was built using the MERN stack, with a React front end, MongoDB database, and Node.js/Express.js server and uses . 
-
+The Goodle API Book Search engine allows users to search for books. The app is built using the MERN stack, with a React front end, MongoDB database, and Node.js/Express.js server. The code has been refactored from a RESTful API to GraphQL API. 
 
 Deployed App: https://limitless-sea-81374.herokuapp.com
+
+## Table of contents
+- [Key features](#key-features)
+- [Technology stack](#Technology-stack)
+- [Installation](#Installation)
+- [Preview](#Preview)
+
+## Key features
+- Semantic search for books using the Google API
+- Members only section
+- Add / Remove favourites on your profile
+
+## Technology stack
+- React Framework
+- MongoDB
+- GraphQL
+
+## Installation
+- Not required.
+- If you wish to clone or fork the repo, you will need to:
+  - Run `npm install`. This will install the necessary npm packages locally
+  - Run `npm start`. This will start the React App
+
+## Preview
